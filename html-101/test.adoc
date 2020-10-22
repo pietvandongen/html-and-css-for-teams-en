@@ -84,10 +84,16 @@ Satéprikker::
 == Beoordelingen
 
 [quote, C. Beslag]
+____
 Fantastische cake, heerlijk recept! Mijn oven stond wel 10 graden warmer.
+____
 
 [quote, S. Mixer]
+____
 Ik doe er een beetje cacao doorheen, lekker lekker lekker.
+____
 
 [quote, V. Ganist]
+____
 Je kunt ook veganistische cake maken, met plantaardige boter en nep-ei.
+____
