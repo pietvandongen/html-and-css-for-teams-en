@@ -1,3 +1,5 @@
+:doctype: article
+
 = Cake
 
 De geur van versgebakken cake. Wie is er niet verliefd op?
