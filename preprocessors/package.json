@@ -1,0 +1,14 @@
+{
+  "name": "preprocessors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "sass --watch style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
+}
