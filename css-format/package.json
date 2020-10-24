@@ -1,0 +1,16 @@
+{
+  "name": "css-format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"**/*.css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^13.7.2",
+    "stylelint-config-concentric-order": "^4.0.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
