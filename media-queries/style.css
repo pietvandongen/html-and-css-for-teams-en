@@ -39,44 +39,29 @@ a:hover {
 
 header {
     background: #fecd66;
-    padding: 1rem 2rem;
+    text-align: center;
 }
 
-nav {
-    margin-bottom: 1rem;
+header h1 {
+    font-size: 2rem;
+    line-height: 5rem;
+    padding-left: 2rem;
 }
 
-nav ul {
+header ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    list-style: none;
-    display: inline-block;
+header ul li {
+    line-height: 5rem;
+    text-align: center;
 }
 
-nav ul li a,
-nav ul li span {
-    background: #fff;
-    border: 0;
-    display: block;
-    font-weight: bold;
-    padding: 1rem 2rem;
-}
-
-nav ul li.active span,
-nav ul li a:hover {
-    background: #49c0a6;
-    color: #fff;
-}
-
-nav ul li.active a {
-    color: #2b2c2e;
-}
-
-nav form {
-    margin: 1rem 2rem;
+header form {
+    line-height: 5rem;
+    text-align: center;
 }
 
 input {
@@ -101,13 +86,27 @@ input[type="submit"]:hover {
 }
 
 main,
-aside {
+#content > aside {
+    box-sizing: border-box;
     padding: 2rem;
+}
+
+main {
+    flex: 0 0 67%;
+}
+
+#content > aside {
+    flex: 0 0 33%;
+}
+
+img {
+    border-right: 2rem solid #fff;
+    border-bottom: 2rem solid #fff;
 }
 
 main aside {
     background: #f5f7fa;
-    border-radius: 0.5rem;
+    font-size: 1rem;
     padding: 1rem;
 }
 
@@ -143,3 +142,44 @@ footer {
     padding: 2rem;
     margin: 0;
 }
+
+@media only screen and (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 5rem;
+        text-align: left;
+    }
+
+    header ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    header ul li {
+        flex: 1;
+    }
+
+    header form {
+        text-align: right;
+    }
+
+    #content {
+        display: flex;
+    }
+
+    img {
+        float: left;
+        width: 20%;
+    }
+
+    main aside {
+        border-left: 2rem solid #fff;
+        border-bottom: 2rem solid #fff;
+        float: right;
+        width: 20%;
+        margin-left: 2rem;
+    }
+}
+
