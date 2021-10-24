@@ -1,7 +1,7 @@
-= Training: HTML & CSS voor het hele team
+= Training: HTML & CSS for the whole team
 
-De een vind het leuk, de ander wat minder, maar meestal ontkom je er niet aan:
-het schrijven en onderhouden van HTML en CSS.
-Na het volgen van deze cursus kom je voortaan goed beslagen te ijs
-én wordt het nog leuk ook.
-Voor het hele team!
+Some like it, the other less so, but usually you can't escape it:
+writing and maintaining HTML and CSS.
+After following this course you will be well prepared from now on
+and it will be fun too.
+For the whole team!
