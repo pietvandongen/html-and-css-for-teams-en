@@ -3,59 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Cake</title>
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous">
 </head>
 <body>
+
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Koken met vrienden</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Koken met vrienden</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recepten</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Koks</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search"
-                   placeholder="Ik zoek..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                Zoeken
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09">
+                <span class="navbar-toggler-icon"></span>
             </button>
-        </form>
+
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recepten</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Koks</a>
+                    </li>
+                </ul>
+
+                <form>
+                    <input class="form-control" type="text" placeholder="Ik zoek&hellip;">
+                </form>
+            </div>
+        </div>
     </nav>
 </header>
 
-<main role="main" class="container">
+<main role="main" class="container pt-5 pb-5">
     <div class="row">
-        <div class="col">
+        <div class="col-md-8">
             <article>
                 <h2>Cake</h2>
 
-                <img class="rounded float-left" src="./images/cake.jpg"
+                <img class="img-fluid rounded float-lg-start me-3 mb-3"
+                     src="./images/cake.jpg"
                      alt="Een plak cake">
 
                 <p>
@@ -63,25 +57,28 @@
                 </p>
 
                 <aside>
-                    Een bekend verhaal rondom Marie Antoinette is dat toen ze
-                    vernam
-                    dat
-                    het
-                    Franse volk geen brood had om te eten, ze zou hebben gezegd:
+                    <p>
+                        Een bekend verhaal rondom Marie Antoinette is dat toen ze
+                        vernam dat het Franse volk geen brood had om te eten, ze zou hebben gezegd:
+                    </p>
 
                     <blockquote class="blockquote">
                         &ldquo;S&rsquo;ils n&lsquo;ont pas de pain qu&#8217;ils
                         mangent de la brioche!&rdquo;
                     </blockquote>
 
-                    Meestal vertaald als:
+                    <p>
+                        Meestal vertaald als:
+                    </p>
 
                     <blockquote class="blockquote">
                         &ldquo;Als ze geen brood hebben, dan eten ze toch cake!&rdquo;
                     </blockquote>
 
-                    Daarmee duidelijk makend dat ze geen flauw
-                    benul had van de ware situatie waarin het volk verkeerde.
+                    <p>
+                        Daarmee duidelijk makend dat ze geen flauw
+                        benul had van de ware situatie waarin het volk verkeerde.
+                    </p>
                 </aside>
 
                 <section>
@@ -248,72 +245,82 @@
                 <section>
                     <h3>Beoordelingen</h3>
 
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Fantastische cake, heerlijk recept! Mijn
-                            oven stond wel 10 graden warmer.</p>
-                        <footer class="blockquote-footer"><cite
-                                title="Source Title">C. Beslag</cite></footer>
-                    </blockquote>
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>
+                                Fantastische cake, heerlijk recept! Mijn oven stond wel 10 graden warmer.
+                            </p>
+                        </blockquote>
 
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Ik doe er een beetje cacao doorheen,
-                            lekker lekker
-                            lekker.</p>
-                        <footer class="blockquote-footer"><cite
-                                title="Source Title">S. Mixer</cite></footer>
-                    </blockquote>
+                        <figcaption class="blockquote-footer">
+                            C. Beslag
+                        </figcaption>
+                    </figure>
 
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Je kunt ook veganistische cake maken,
-                            met plantaardige
-                            boter en nep-ei.</p>
-                        <footer class="blockquote-footer"><cite
-                                title="Source Title">V. Ganist</cite></footer>
-                    </blockquote>
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>
+                                Ik doe er een beetje cacao doorheen, lekker lekker lekker.
+                            </p>
+                        </blockquote>
 
+                        <figcaption class="blockquote-footer">
+                            S. Mixer
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>
+                                Je kunt ook veganistische cake maken, met plantaardige boter en nep-ei.
+                            </p>
+                        </blockquote>
+
+                        <figcaption class="blockquote-footer">
+                            V. Ganist
+                        </figcaption>
+                    </figure>
                 </section>
             </article>
         </div>
 
-        <div class="col">
+        <div class="col-md-4">
             <h2>Vergelijkbare recepten</h2>
 
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <a href="#">Taart</a>
-                </li>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                    Taart
+                </a>
 
-                <li class="list-group-item">
-                    <a href="#">Bonbons</a>
-                </li>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Bonbons
+                </a>
 
-                <li class="list-group-item">
-                    <a href="#">Spruitjes</a>
-                </li>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Spruitjes
+                </a>
 
-                <li class="list-group-item">
-                    <a href="#">Kletskoppen</a>
-                </li>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Kletskoppen
+                </a>
 
-                <li class="list-group-item">
-                    <a href="#">Marmercake</a>
-                </li>
-            </ul>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Marmercake
+                </a>
+            </div>
         </div>
     </div>
 </main>
 
-<footer class="footer mt-auto py-3">
-    <div class="container">
-        <span class="text-muted">Copyright (C) 2020, Koken met vrienden</span>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+        </a>
+        <span class="text-muted">Copyright © 2021, Koken met Vrienden</span>
     </div>
 </footer>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="../../assets/js/vendor/popper.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
 </body>
 </html>
