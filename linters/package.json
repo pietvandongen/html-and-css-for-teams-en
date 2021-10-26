@@ -1,0 +1,17 @@
+{
+  "name": "linters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^14.0.0",
+    "stylelint-config-concentric-order": "^4.0.1",
+    "stylelint-config-standard": "^23.0.0"
+  }
+}
